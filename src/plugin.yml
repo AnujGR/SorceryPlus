@@ -1,0 +1,3 @@
+name: SorceryPlus
+main: plugin.sv.spells.Main
+version: 0.1.0
