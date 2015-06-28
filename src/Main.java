@@ -72,7 +72,7 @@ public class Main extends JavaPlugin implements Listener{
 	public static Long endendtime;
 	HashMap<Player, Location> teleportmap = new HashMap<Player, Location>();
 	/**
-	 * SPELLS (CASTING)
+	 * SPELL CASTING
 	 * */
 	@EventHandler
 	public void onPlayerInteract(PlayerInteractEvent e){
