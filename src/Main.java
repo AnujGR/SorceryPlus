@@ -36,7 +36,7 @@ public class Main extends JavaPlugin implements Listener{
 		ItemStack magicwand = new ItemStack(Material.STICK);
 		ItemMeta metamagicwand = magicwand.getItemMeta();
 		metamagicwand.setDisplayName(ChatColor.YELLOW + "Spell Wand");
-		metamagicwand.setLore(Arrays.asList(ChatColor.YELLOW + "Cast spells by left-clicking with this wand.", ChatColor.YELLOW + "Choose the next spell by right-clicking.", ChatColor.YELLOW + "Spell selected: " + ChatColor.GRAY + "Blazing Wind"));
+		metamagicwand.setLore(Arrays.asList(ChatColor.YELLOW + "Cast spells by left-clicking with this wand.", ChatColor				.YELLOW + "Choose the next spell by right-clicking.", ChatColor.YELLOW + "Spell selected: " + ChatColor.GRAY + 				"Blazing Wind"));
 		magicwand.setItemMeta(metamagicwand);
 		ShapedRecipe magicwandrecipe = new ShapedRecipe(magicwand);
 		magicwandrecipe.shape("*^*", "!#!", "*&*");
