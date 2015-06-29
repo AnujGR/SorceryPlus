@@ -25,8 +25,6 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.Vector;
 
-import plugin.sv.spells.Main;
-
 public class Spells {
 	@SuppressWarnings("deprecation")
 	public void castSpell(String label, PlayerInteractEvent e, PlayerMoveEvent ev, HashMap<Player, Location> teleportmap){
