@@ -27,7 +27,7 @@ public class Main extends JavaPlugin implements Listener{
 	public void onEnable(){
 		plu = this;
 		/**
-		 * RECIPE
+		 * spell wand recipe
 		 * */
 		ItemStack magicwand = new ItemStack(Material.STICK);
 		ItemMeta metamagicwand = magicwand.getItemMeta();
@@ -51,7 +51,7 @@ public class Main extends JavaPlugin implements Listener{
 		return plu;
 	}
 	/**
-	 * Cooldown ArrayLists
+	 * cooldown ArrayLists
 	 * */
 	private ArrayList<Player> incooldownsmoke = new ArrayList<Player>();
 	private ArrayList<Player> incooldownwind = new ArrayList<Player>();
