@@ -23,8 +23,6 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.util.Vector;
 
-import plugin.sv.util.Spells;
-
 public class Main extends JavaPlugin implements Listener{
 	private Spells spell;
 	private static Plugin plu;
